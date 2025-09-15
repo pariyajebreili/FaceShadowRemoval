@@ -7,13 +7,12 @@ Frontal and aligned images with a size of 160×160 from 10 individuals, each cap
 According to the lighting angle, these images are classified into 5 different subsets, and the number of images in each subset is listed in the file Index.txt.</br>
 Examples of some images from this dataset are shown in Figure 1. </br>
 
-![alt text](image.png)
+<img src="image.png" width="400"/>
 
 
 The unet architecture : 
 
-![alt text](u-net-architecture.png)
-
+<img src="u-net-architecture.png" width="400"/>
 
 The aim of this project was to give a shadowed image as the input to a neural network and provide the correct shadow-free image as the output, so that the network could learn the relationship between the two. Then, when a new shadowed image is given as input, the network attempts to reconstruct the shadow-free version.
 
